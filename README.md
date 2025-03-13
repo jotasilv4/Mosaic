@@ -1,9 +1,9 @@
-<h1 align="center"><b>HYPRFABRICATED</b></h1>
+<h1 align="center"><b>MOSAIC</b></h1>
 
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/jotasilv4/Mosaic?style=for-the-badge&logo=github&color=FFB686&logoColor=D9E0EE&labelColor=292324)](https://github.com/jotasilv4/Mosaic/stargazers)
-[![I3WM](https://img.shields.io/badge/Made%20for-Hyprland-pink?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=C6A0F6)](https://hyprland.org/)
+[![I3WM](https://img.shields.io/badge/Made%20for-Hyprland-pink?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=C6A0F6)](https://i3wm.org/)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge&logo=linux&logoColor=D9E0EE&labelColor=292324&color=3362E1)]()
 
 </div>
