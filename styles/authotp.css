@@ -1,0 +1,247 @@
+#auth-otp-content {
+    margin: 14px;
+    padding: 2px;
+}
+
+#auth-otp-header {
+    min-width: 550px;
+    padding: 6px;
+    background-color: alpha(var(--surface), 0.72);
+    border: 1px solid alpha(var(--surface-bright), 0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px alpha(var(--shadow), 0.18);
+}
+
+#search-otp {
+    min-width: 410px;
+    padding: 10px 14px;
+    background-color: alpha(var(--surface-bright), 0.18);
+    color: var(--foreground);
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+#search-otp selection {
+    color: var(--shadow);
+    background-color: var(--primary);
+}
+
+#search-otp:focus {
+    border: 1px solid alpha(var(--primary), 0.8);
+    background-color: alpha(var(--surface-bright), 0.32);
+}
+
+#otp-header-actions {
+    margin-left: 6px;
+}
+
+#button-otp-action {
+    min-width: 18px;
+    padding: 10px;
+    background-color: alpha(var(--surface-bright), 0.28);
+    border: 1px solid transparent;
+    border-radius: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+#button-otp-action.manual {
+    background-color: alpha(var(--primary), 0.14);
+    border-color: alpha(var(--primary), 0.22);
+}
+
+#button-otp-action:hover,
+#button-otp-action:focus {
+    background-color: var(--primary);
+    border: 1px solid alpha(var(--primary), 0.9);
+}
+
+#button-otp-action-label {
+    font-size: 22px;
+    color: var(--primary);
+}
+
+#button-otp-action:hover #button-otp-action-label,
+#button-otp-action:focus #button-otp-action-label {
+    color: var(--shadow);
+}
+
+#manual-otp-revealer {
+    min-width: 550px;
+}
+
+#manual-otp-form {
+    padding: 12px;
+    background-color: alpha(var(--surface), 0.7);
+    border: 1px solid alpha(var(--primary), 0.24);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px alpha(var(--shadow), 0.16);
+}
+
+#manual-otp-entry {
+    min-width: 110px;
+    padding: 10px 12px;
+    color: var(--foreground);
+    background-color: alpha(var(--surface-bright), 0.24);
+    border: 1px solid alpha(var(--surface-bright), 0.78);
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+#manual-otp-entry:focus {
+    border-color: alpha(var(--primary), 0.85);
+    background-color: alpha(var(--surface-bright), 0.36);
+}
+
+#manual-otp-entry selection {
+    color: var(--shadow);
+    background-color: var(--primary);
+}
+
+#manual-otp-status {
+    min-width: 300px;
+    color: alpha(var(--foreground), 0.66);
+    font-size: 12px;
+}
+
+#manual-otp-button {
+    padding: 9px 13px;
+    border-radius: 12px;
+    border: 1px solid alpha(var(--surface-bright), 0.8);
+    background-color: alpha(var(--surface-bright), 0.22);
+    transition: all 0.2s ease-in-out;
+}
+
+#manual-otp-button.save {
+    background-color: alpha(var(--primary), 0.18);
+    border-color: alpha(var(--primary), 0.36);
+}
+
+#manual-otp-button:hover,
+#manual-otp-button:focus {
+    background-color: alpha(var(--surface-bright), 0.52);
+}
+
+#manual-otp-button.save:hover,
+#manual-otp-button.save:focus {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+#manual-otp-button.save:hover label,
+#manual-otp-button.save:focus label {
+    color: var(--shadow);
+}
+
+#scrolled-window-otp {
+    min-width: 550px;
+    border-radius: 20px;
+    background-color: alpha(var(--surface), 0.42);
+    border: 1px solid alpha(var(--surface-bright), 0.72);
+    padding: 8px;
+    box-shadow: inset 0 1px alpha(var(--foreground), 0.04);
+}
+
+#scrolled-window-otp scrollbar {
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 6px;
+}
+
+#scrolled-window-otp slider {
+    border-radius: 8px;
+    min-width: 10px;
+    min-height: 40px;
+    background-color: alpha(var(--primary), 0.8);
+}
+
+#otp-slot-box2 {
+    padding: 4px 2px;
+}
+
+#otp-slot-button {
+    min-width: 438px;
+    padding: 12px 14px;
+    border-radius: 16px;
+    border: 1px solid alpha(var(--surface-bright), 0.82);
+    background-color: alpha(var(--surface), 0.72);
+    transition: all 0.2s ease-in-out;
+}
+
+#otp-slot-button:hover,
+#otp-slot-button:focus {
+    border: 1px solid alpha(var(--primary), 0.85);
+    background-color: alpha(var(--surface-bright), 0.48);
+}
+
+#otp-slot-reload {
+    color: alpha(var(--primary), 0.35);
+    border: 4px solid var(--primary);
+}
+
+#otp-slot-bars-h {
+    min-width: 2px;
+    min-height: 18px;
+    margin: 0 12px;
+    background-color: alpha(var(--surface-bright), 0.85);
+}
+
+#otp-slot-label-issuer {
+    font-size: 14px;
+    font-weight: 700;
+    color: alpha(var(--foreground), 0.9);
+}
+
+#otp-slot-dot {
+    font-size: 9px;
+    color: alpha(var(--foreground), 0.4);
+}
+
+#otp-slot-label-code {
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+#otp-slot-button.trash {
+    min-width: 0;
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid alpha(var(--surface-bright), 0.72);
+    background-color: alpha(var(--surface), 0.54);
+}
+
+#otp-slot-button.trash label {
+    font-size: 20px;
+    color: alpha(var(--foreground), 0.92);
+}
+
+#otp-slot-button.trash:hover,
+#otp-slot-button.trash:focus {
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+#otp-slot-button.trash:hover label,
+#otp-slot-button.trash:focus label {
+    color: var(--shadow);
+}
+
+#empty-state-container {
+    min-width: 500px;
+    padding: 22px;
+    border-radius: 18px;
+    background-color: alpha(var(--surface), 0.55);
+    border: 1px dashed alpha(var(--surface-bright), 0.9);
+}
+
+#empty-state-icon {
+    font-size: 34px;
+    color: alpha(var(--primary), 0.85);
+}
+
+#empty-state-description {
+    font-size: 14px;
+    color: alpha(var(--foreground), 0.75);
+}

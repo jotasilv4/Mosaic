@@ -1,0 +1,162 @@
+#wallpapers {
+  border-radius: 16px;
+  padding: 6px;
+}
+
+#header {
+  margin-bottom: 4px;
+}
+
+#search-entry-walls {
+  min-width: 360px;
+  font-size: 14px;
+  padding: 9px 16px;
+  border-radius: 18px;
+  background-color: alpha(var(--surface-bright), 0.8);
+  color: var(--foreground);
+  border: 1px solid alpha(var(--outline), 0.35);
+}
+
+#search-entry-walls:focus {
+  border-color: var(--primary);
+  background-color: var(--surface);
+}
+
+#scheme-dropdown {
+  border-radius: 18px;
+  background-color: alpha(var(--surface-bright), 0.8);
+  color: var(--foreground);
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid alpha(var(--outline), 0.35);
+}
+
+#scheme-dropdown:hover {
+  border-color: var(--primary);
+}
+
+#wallpaper-dir-button {
+  min-height: 34px;
+  padding: 0 10px;
+  border-radius: 18px;
+  background-color: alpha(var(--surface-bright), 0.8);
+  border: 1px solid alpha(var(--outline), 0.35);
+}
+
+#wallpaper-dir-button:hover,
+#wallpaper-dir-button:focus {
+  border-color: var(--primary);
+  background-color: var(--surface);
+}
+
+#wallpaper-dir-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+#wallpaper-category-box {
+  margin-bottom: 4px;
+}
+
+#wallpaper-category-button {
+  padding: 6px 10px;
+  border-radius: 18px;
+  background-color: alpha(var(--surface-bright), 0.65);
+  border: 1px solid transparent;
+}
+
+#wallpaper-category-button:hover,
+#wallpaper-category-button:focus {
+  background-color: var(--surface-bright);
+  border-color: alpha(var(--primary), 0.35);
+}
+
+#wallpaper-category-button.active {
+  background-color: alpha(var(--primary), 0.22);
+  border-color: alpha(var(--primary), 0.65);
+}
+
+#wallpaper-category-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: alpha(var(--foreground), 0.76);
+}
+
+#wallpaper-category-button.active #wallpaper-category-label {
+  color: var(--primary);
+}
+
+#scrolled-window-walls {
+  border-radius: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+#wallpapers-box {
+  padding: 4px 2px 8px 2px;
+  min-width: 690px;
+}
+
+#wallpapers-box button.wallpaper-card {
+  background-color: transparent;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  padding: 6px;
+  min-width: 104px;
+  min-height: 104px;
+  transition: all 0.16s ease-in-out;
+}
+
+#wallpapers-box button.wallpaper-card:hover {
+  background-color: alpha(var(--surface-bright), 0.28);
+  border-color: alpha(var(--primary), 0.55);
+}
+
+#wallpapers-box button.wallpaper-card.selected,
+#wallpapers-box button.wallpaper-card.current {
+  border: 2px solid var(--primary);
+  background-color: alpha(var(--primary), 0.12);
+}
+
+#wallpaper-card-overlay {
+  border-radius: 16px;
+  min-width: 94px;
+  min-height: 94px;
+}
+
+#wallpaper-card-image-box {
+  border-radius: 16px;
+  background-color: var(--surface);
+  min-width: 94px;
+  min-height: 94px;
+}
+
+#wallpaper-card-image {
+  border-radius: 16px;
+  min-width: 94px;
+  min-height: 94px;
+}
+
+#wallpaper-current-badge {
+  padding: 3px 8px;
+  border-radius: 8px 8px 12px 12px;
+  background-color: alpha(var(--shadow), 0.72);
+  color: var(--primary);
+  font-size: 10px;
+  font-weight: 900;
+}
+
+#scrolled-window-walls scrollbar {
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 4px;
+}
+
+#scrolled-window-walls slider {
+  border-radius: 8px;
+  min-width: 8px;
+  min-height: 40px;
+  background-color: alpha(var(--primary), 0.72);
+}

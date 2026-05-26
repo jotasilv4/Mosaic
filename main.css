@@ -1,0 +1,25 @@
+@import url("./styles/colors.css");
+/* @import url("./styles/shadows.css"); */
+@import url("./styles/bar.css");
+@import url("./styles/workspaces.css");
+@import url("./styles/notch.css");
+@import url("./styles/launcher.css");
+@import url("./styles/power.css");
+@import url("./styles/dashboard.css");
+@import url("./styles/wallpapers.css");
+@import url("./styles/emoji.css");
+@import url("./styles/notifications.css");
+@import url("./styles/authotp.css");
+@import url("./styles/bluetooth.css");
+@import url("./styles/audio.css");
+@import url("./styles/network.css");
+@import url("./styles/brightness.css");
+@import url("./styles/tools.css");
+
+* {
+    all: unset;
+    color: var(--foreground);
+    font-size: 11pt;
+    font-family: "Zed Sans";
+    border-radius: 16px;
+}

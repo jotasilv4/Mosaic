@@ -1,0 +1,92 @@
+#bluetooth-menu {
+    padding: 10px;
+}
+
+#bluetooth-header {
+    margin-bottom: 10px;
+}
+
+#bluetooth-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#bluetooth-power-box {
+    background-color: var(--surface-bright);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#bluetooth-power-box label {
+    font-size: 16px;
+    color: var(--foreground);
+}
+
+#bluetooth-devices-scrolled {
+    background-color: var(--surface-bright);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#bluetooth-device-item {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    transition: background-color 0.2s;
+}
+
+#bluetooth-device-item:hover {
+    background-color: var(--surface);
+}
+
+#device-icon label {
+    font-size: 24px;
+    color: var(--primary);
+}
+
+#device-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--foreground);
+}
+
+#device-status {
+    font-size: 12px;
+}
+
+.dim {
+    opacity: 0.6;
+}
+
+#back-button, #scan-button {
+    background-color: var(--surface);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+#back-button label, #scan-button label {
+    font-size: 18px;
+    color: var(--primary);
+}
+
+/* Switch styling */
+switch {
+    border-radius: 20px;
+    border: 1px solid var(--outline);
+    background-color: var(--surface);
+}
+
+switch:checked {
+    background-color: var(--primary);
+}
+
+switch slider {
+    background-color: var(--foreground);
+    border-radius: 50%;
+    margin: 2px;
+    min-width: 18px;
+    min-height: 18px;
+}

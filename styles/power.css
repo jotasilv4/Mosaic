@@ -1,0 +1,30 @@
+#power-menu-button {
+    border-radius: 20px;
+    min-width: 52px;
+    min-height: 52px;
+    transition: background-color ease-in-out 0.2s;
+}
+
+#power-menu-button label {
+    font-size: 24px;
+    color: var(--foreground);
+    transition: color ease-in-out 0.2s;
+}
+
+#power-menu-button:hover,
+#power-menu-button:focus {
+    background-color: var(--surface-bright);
+}
+
+#power-menu-button:hover label,
+#power-menu-button:focus label {
+    color: var(--primary);
+}
+
+#power-menu-button:active {
+    background-color: var(--primary);
+}
+
+#power-menu-button:active label {
+    color: var(--shadow);
+}

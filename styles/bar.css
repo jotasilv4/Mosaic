@@ -1,0 +1,117 @@
+#bar-inner {
+    margin: 8px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.5, 0.25, 0, 1);
+}
+  
+#bar-inner.hidden {
+    margin: 8px;
+    margin-top: -40px;
+    opacity: 0;
+}
+
+#date-time {
+    background-color: alpha(var(--shadow), 0.82);
+    padding: 8px 10px;
+    border-radius: 11px;
+    font-weight: bold;
+}
+
+#systray {
+    background-color: alpha(var(--shadow), 0.82);
+    padding: 8px 10px;
+    border-radius: 11px;
+}
+
+#button-bar {
+    padding: 4px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 11px;
+    background-color: alpha(var(--shadow), 0.82);
+    transition: all 0.1s ease;
+}
+
+#button-bar.logo {
+    padding: 9px;
+    min-width: 18px;
+    min-height: 18px;
+    border-radius: 11px;
+}
+
+#button-bar.notch {
+    padding: 0;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 14px;
+    background-color: var(--shadow);
+}
+
+#button-bar-label {
+    color: var(--primary);
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}
+
+#button-bar-logo {
+    padding: 0;
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}
+
+#button-bar.notch #button-bar-label {
+    padding: 0;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 8px;
+}
+
+#button-bar:hover #button-bar-label {
+    background-color: var(--surface_bright);
+}
+
+#button-bar.notch:hover #button-bar-label {
+    background-color: transparent;
+}
+
+#button-bar:hover #button-bar-logo {
+    background-color: var(--surface_bright);
+}
+
+#button-bar:active #button-bar-label {
+    color: var(--shadow);
+    background-color: var(--primary);
+}
+
+#button-bar.notch:active #button-bar-label {
+    background-color: transparent;
+}
+
+#button-bar:active #button-bar-logo {
+    background-color: var(--primary);
+}
+
+#corner {
+    background-color: var(--shadow);
+    border-radius: 0;
+}
+
+#corner-container {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+#button-corner {
+    border-radius: 0px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+#notch,
+#bar {
+    border-radius: 0px;
+}

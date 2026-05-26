@@ -1,0 +1,6 @@
+#!/bin/sh
+
+INSTALL_DIR="$HOME/.config/Mosaic"
+python "$INSTALL_DIR/main.py" > /dev/null &
+
+picom --config "$INSTALL_DIR/config/components/picom/picom.conf" &

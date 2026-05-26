@@ -1,0 +1,73 @@
+#network-menu {
+    padding: 10px;
+}
+
+#network-header {
+    margin-bottom: 10px;
+}
+
+#network-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#network-status-box {
+    background-color: var(--surface-bright);
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#network-status-icon {
+    font-size: 22px;
+    color: var(--primary);
+}
+
+#network-status-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#network-status-subtitle {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+#network-scrolled {
+    background-color: var(--surface-bright);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#network-item {
+    background-color: transparent;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#network-item:hover {
+    background-color: var(--surface);
+}
+
+#network-item-icon label {
+    font-size: 20px;
+    color: var(--primary);
+}
+
+#network-item-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#network-item-status {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+#network-item-arrow {
+    font-size: 14px;
+    opacity: 0.5;
+}

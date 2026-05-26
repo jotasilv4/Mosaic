@@ -1,0 +1,150 @@
+#notch-box {
+    margin: 0 60px 10px 60px;
+}
+
+#notch-box.hidden {
+    opacity: 0;
+}
+
+#notch-box.hideshow {
+    opacity: 1;
+    margin-top: 40px;
+}
+
+#notch-content {
+    background-color: alpha(var(--shadow), 0.96);
+    min-height: 40px;
+    min-width: 256px;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid alpha(var(--outline), 0.28);
+    border-top: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#notch-content.launcher {
+    padding: 16px;
+    min-height: 220px;
+    min-width: 480px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.power {
+    min-height: 84px;
+    min-width: 308px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.dashboard {
+    padding: 0;
+    min-height: 300px;
+    min-width: 800px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.authotp {
+    min-width: 560px;
+    min-height: 100px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.emoji {
+    padding: 16px;
+    min-height: 238px;
+    min-width: 574px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.tools {
+  min-height: 84px;
+  min-width: 364px;
+  border-radius: 0 0 26px 26px;
+}
+
+#notch-content.bluetooth {
+    padding: 16px;
+    min-height: 300px;
+    min-width: 440px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.audio {
+    padding: 16px;
+    min-height: 300px;
+    min-width: 440px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-content.network {
+    padding: 16px;
+    min-height: 300px;
+    min-width: 440px;
+    border-radius: 0 0 26px 26px;
+}
+
+#notch-compact {
+    font-weight: bold;
+    transition: all 0.5s cubic-bezier(0.5, 0.25, 0, 1.25);
+    padding: 10px;
+}
+
+#compact-media {
+    padding: 4px 8px;
+    min-width: 0;
+}
+
+#compact-media-cover {
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 6px;
+    background-color: var(--surface);
+    padding: 1px;
+}
+
+#compact-media-sound {
+    color: var(--primary);
+    font-weight: bold;
+    min-width: 24px;
+    margin-left: 4px;
+    font-size: 10pt;
+}
+
+#notch-corner-left {
+    margin-left: -16px;
+}
+
+#notch-corner-right {
+    margin-right: -16px;
+}
+
+#app-launcher,
+#power-menu,
+#dashboard,
+#emoji,
+#notification,
+#auth-otp,
+#toolbox,
+#bluetooth-menu,
+#audio-menu,
+#network-menu {
+    opacity: 1;
+    margin: -800px;
+    transition: all 0.25s cubic-bezier(0.5, 0.25, 0, 1);
+}
+
+#app-launcher.open,
+#power-menu.open,
+#dashboard.open,
+#emoji.open,
+#notification.open,
+#auth-otp.open,
+#toolbox.open,
+#bluetooth-menu.open,
+#audio-menu.open,
+#network-menu.open {
+    opacity: 1;
+    margin: 0px;
+}
+
+#button-bar.notch {
+    margin-bottom: 8px;
+}

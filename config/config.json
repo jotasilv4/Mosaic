@@ -1,0 +1,30 @@
+{
+    "restart": {
+        "command": "Mod4+Shift+r"
+    },
+    "axmsg": {
+        "command": "Mod4+Shift+b"
+    },
+    "dash": {
+        "command": "Mod4+Shift+r"
+    },
+    "bluetooth": {
+        "command": "Mod4+Shift+r"
+    },
+    "launcher": {
+        "command": "Mod4+d"
+    },
+    "toolbox": {
+        "command": "Mod4+Shift+t"
+    },
+    "emoji": {
+        "command": "Mod4+Shift+r"
+    },
+    "power": {
+        "command": "Mod4+Shift+r"
+    },
+    "css": {
+        "command": "Mod4+Shift+r"
+    },
+    "wallpapers_dir": "/home/moretti/.config/Mosaic/assets/wallpapers_example"
+}

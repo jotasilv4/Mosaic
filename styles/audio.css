@@ -1,0 +1,105 @@
+#audio-menu {
+    padding: 10px;
+}
+
+#audio-header {
+    margin-bottom: 15px;
+}
+
+#audio-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#audio-sliders-box {
+    background-color: var(--surface-bright);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#slider-icon {
+    font-size: 18px;
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+#audio-sliders-box label {
+    font-size: 14px;
+}
+
+#audio-devices-scrolled {
+    background-color: var(--surface-bright);
+    border-radius: 12px;
+}
+
+#list-section-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 10px 0 5px 12px;
+    opacity: 0.9;
+}
+
+#audio-device-item {
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 0 5px 2px 5px;
+}
+
+#audio-device-item:hover {
+    background-color: var(--surface);
+}
+
+/* Item Selecionado (Destaque) */
+#audio-device-item.default {
+    background-color: var(--primary);
+}
+
+#audio-device-item.default label {
+    color: var(--on-primary);
+}
+
+#device-icon label {
+    font-size: 22px;
+    color: var(--primary);
+}
+
+#audio-device-item.default #device-icon label {
+    color: var(--on-primary);
+}
+
+#device-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#device-status {
+    font-size: 12px;
+}
+
+/* Sliders */
+scale {
+    margin: 5px 0;
+}
+
+scale contents trough {
+    background-color: var(--surface);
+    border-radius: 10px;
+    min-height: 8px;
+}
+
+scale contents trough highlight {
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+scale contents trough slider {
+    background-color: var(--foreground);
+    border-radius: 50%;
+    min-height: 16px;
+    min-width: 16px;
+    margin: -4px 0;
+}

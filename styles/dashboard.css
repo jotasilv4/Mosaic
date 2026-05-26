@@ -1,0 +1,163 @@
+#header-dashboard {
+}
+
+#dashboard {
+  padding: 0;
+}
+
+#dashboard-shell {
+  padding: 0;
+}
+
+#dashboard-sidebar {
+  min-width: 50px;
+  padding: 12px 8px;
+  background-color: alpha(var(--surface), 0.36);
+  border-radius: 0 0 0 26px;
+  border-right: 1px solid alpha(var(--outline), 0.18);
+}
+
+#dashboard-sidebar-button {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 4px;
+  border-radius: 18px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+#dashboard-sidebar-button:hover,
+#dashboard-sidebar-button:focus {
+  background-color: alpha(var(--surface-bright), 0.64);
+  border-color: alpha(var(--primary), 0.28);
+}
+
+#dashboard-sidebar-button.active {
+  background-color: alpha(var(--primary), 0.28);
+  border-color: alpha(var(--primary), 0.72);
+}
+
+#dashboard-sidebar-icon {
+  color: var(--primary);
+}
+
+#content-dashboard {
+  padding: 10px 12px 12px 0;
+}
+
+#btn-dashboard {
+  background-color: var(--surface);
+  padding: 8px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px;
+}
+#btn-dashboard:hover, #btn-dashboard:focus {
+  background-color: var(--surface-bright);
+  border: 1px solid var(--primary);
+}
+
+#btn-dashboard label {
+  font-size: 20px;
+  color: var(--primary);
+  transition: color 0.2s ease-in-out;
+}
+#btn-dashboard label.text {
+  font-size: 15px;
+}
+
+/* --- PAINEL DE CONTROLE (Material You) --- */
+#dashboard-config-page {
+  padding: 10px;
+}
+
+#config-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--primary);
+  margin-left: 5px;
+}
+
+#dashboard-brightness-box {
+  margin-bottom: 15px;
+  padding: 0 5px;
+}
+
+/* Slider de Brilho Corrigido */
+scale#brightness-slider {
+  min-height: 56px;
+  margin: 0;
+  padding: 0;
+}
+
+scale#brightness-slider contents trough {
+  background-color: var(--surface-bright);
+  border-radius: 28px;
+  min-height: 56px;
+}
+
+scale#brightness-slider contents trough highlight {
+  background-color: var(--primary);
+  border-radius: 28px;
+}
+
+scale#brightness-slider contents trough slider {
+  background-color: transparent;
+  min-height: 56px;
+  min-width: 0px;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+/* Ícone dentro do Slider */
+#slider-icon-inside {
+  font-size: 22px;
+  color: var(--on-primary);
+  margin-left: 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Botões de Configuração (Bluetooth / Áudio) */
+#config-item-button {
+  background-color: var(--surface-bright);
+  padding: 12px 16px;
+  border-radius: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+#config-item-button:hover {
+  background-color: var(--surface);
+}
+
+#config-item-icon label {
+  font-size: 20px;
+  color: var(--primary);
+  margin-right: 12px;
+}
+
+#config-item-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--foreground);
+}
+
+#config-item-subtext {
+  font-size: 12px;
+  color: var(--foreground);
+  opacity: 0.7;
+}
+
+#config-item-arrow label {
+  font-size: 14px;
+  color: var(--foreground);
+  opacity: 0.5;
+}
+
+#config-separator {
+  min-height: 1px;
+  background-color: var(--outline);
+  opacity: 0.1;
+  margin: 10px 0;
+}

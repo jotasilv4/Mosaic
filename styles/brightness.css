@@ -1,0 +1,53 @@
+#brightness-menu {
+    padding: 10px;
+}
+
+#brightness-header {
+    margin-bottom: 15px;
+}
+
+#brightness-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#brightness-slider-box-new {
+    padding: 5px 0;
+}
+
+#slider-icon-inside label {
+    font-size: 20px;
+    color: var(--on-primary);
+    margin-left: 16px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Material You Slider (GtkScale) styling */
+#brightness-slider contents trough {
+    background-color: var(--surface-bright);
+    border-radius: 24px;
+    min-height: 48px;
+    border: none;
+}
+
+#brightness-slider contents trough highlight {
+    background-color: var(--primary);
+    border-radius: 24px;
+}
+
+#brightness-slider contents trough slider {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    min-height: 48px;
+    min-width: 0px;
+    margin: 0;
+}
+
+#slider-value-label {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary);
+    min-width: 40px;
+}

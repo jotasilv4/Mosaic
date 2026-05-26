@@ -1,0 +1,15 @@
+#button-bar,
+#workspaces,
+#notch-content,
+#date-time,
+#systray {
+  box-shadow: 0 0 2px alpha(black, 0.5);
+}
+
+#bar-revealer {
+  padding: 10px;
+}
+
+#boxed-revealer {
+  margin: -10px;
+}

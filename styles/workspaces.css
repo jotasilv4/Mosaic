@@ -1,0 +1,31 @@
+#workspaces {
+    padding: 14px 12px;
+    background-color: alpha(var(--shadow), 0.82);
+    border-radius: 11px;
+}
+
+#workspaces-button {
+    min-width: 8px;
+    min-height: 8px;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.5, 0.25, 0, 1);
+    background-color: alpha(var(--foreground), 0.25);
+}
+
+#workspaces-button.focused {
+    background-color: var(--primary);
+    min-width: 34px;
+    border-radius: 4px;
+    transition: all 0.25s cubic-bezier(0.5, 0.25, 0, 1);
+}
+
+#workspaces-button.active {
+    background-color: alpha(var(--primary), 0.65);
+    min-width: 8px;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.5, 0.25, 0, 1);
+}
+
+#active-window-label {
+    padding: 10px;
+}
